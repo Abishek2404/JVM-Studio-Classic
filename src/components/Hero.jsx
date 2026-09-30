@@ -41,7 +41,7 @@ export default function Hero() {
             <Button href="#gallery" variant="solid" withArrow>
               View Our Work
             </Button>
-            <Button href={brand.instagramUrl} variant="outline">
+            <Button href="#contact" variant="outline">
               Book a Session
             </Button>
           </Reveal>

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { brand, navItems } from '../data/siteData'
 import useScrolled from '../hooks/useScrolled'
 import Button from './Button'
+import ContactSection from './ContactSection'
 
 export default function Navbar({ activeSection, menuOpen, onToggleMenu, onCloseMenu }) {
   const scrolled = useScrolled(20)
@@ -46,7 +47,7 @@ export default function Navbar({ activeSection, menuOpen, onToggleMenu, onCloseM
         </nav>
 
         <div className="navbar__actions">
-          <Button href={brand.instagramUrl} variant="outline" className="navbar__cta">
+          <Button href="#contact" variant="outline" className="navbar__cta">
             Book a Session
           </Button>
 
