@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react'
 import './App.css'
 import BackToTop from './components/BackToTop'
+import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -43,6 +44,7 @@ export default function App() {
         <Testimonials />
         <AlbumShowcase />
         <InstagramSection />
+        <ContactSection />
       </main>
 
       <Footer />

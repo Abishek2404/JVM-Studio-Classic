@@ -59,18 +59,6 @@ export default function Footer() {
             })}
           </div>
         </div>
-
-        <div className="footer__cta">
-          <h3>Ready When You Are</h3>
-          <Button href={brand.instagramUrl} variant="solid" withArrow>
-            Book a Session
-          </Button>
-          <p className="footer__cta-note">
-            Real people • Real stories
-            <br />
-            on Instagram
-          </p>
-        </div>
       </div>
 
       <div className="container footer__bottom">
