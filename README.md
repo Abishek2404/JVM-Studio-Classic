@@ -1,16 +1,83 @@
-# React + Vite
+# JVM Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Luxury wedding photography and album design portfolio website for JVM Studio in Vellore.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a React + Vite single-page website designed to showcase:
 
-## React Compiler
+- wedding and portrait photography
+- cinematic pre-wedding storytelling
+- premium album design
+- client enquiries and WhatsApp contact flow
+- elegant editorial branding for a photography studio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite 8
+- Normal CSS
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```bash
+src/
+  App.jsx
+  App.css
+  components/
+  data/
+  hooks/
+  main.jsx
+public/
+  logo.png
+```
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Run the app locally
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```bash
+http://localhost:5173/
+```
+
+### 3. Build for production
+
+```bash
+npm run build
+```
+
+### 4. Preview the production build
+
+```bash
+npm run preview
+```
+
+## Scripts
+
+- `npm run dev` — starts the Vite development server
+- `npm run build` — creates a production build
+- `npm run preview` — serves the production build locally
+- `npm run lint` — runs ESLint checks
+
+## Notes
+
+- The site uses a premium editorial visual style for a photography brand.
+- The contact form opens a WhatsApp message pre-filled with the user enquiry.
+- The project is intended for a personal studio brand and portfolio showcase.
+
+## License
+
+This project is intended for client/personal branding use and is not published as a public open-source package.
