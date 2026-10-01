@@ -79,8 +79,8 @@ export default function Navbar({ activeSection, menuOpen, onToggleMenu, onCloseM
               {item.label}
             </a>
           ))}
-          <Button href={brand.instagramUrl} variant="solid" className="mobile-menu__cta" withArrow>
-            Message Us 
+          <Button href={whatsappUrl} variant="outline" className="navbar__cta">
+            Massages Us
           </Button>
         </nav>
       </div>
