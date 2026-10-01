@@ -203,9 +203,8 @@ export const instagramImages = [
 
 export const socialLinks = [
   { id: 'instagram', label: 'Instagram', url: brand.instagramUrl },
-  { id: 'facebook', label: 'Facebook', url: 'https://www.facebook.com/' },
-  { id: 'youtube', label: 'YouTube', url: 'https://www.youtube.com/' },
-  { id: 'pinterest', label: 'Pinterest', url: 'https://www.pinterest.com/' },
+  { id: 'facebook', label: 'Facebook', url: 'https://www.facebook.com/jvmstudiovlr/' },
+  { id: 'whatsapp', label: 'WhatsApp +91 80156 93237', url: 'https://wa.me/918015693237' },
 ]
 
 export const heroImage = {

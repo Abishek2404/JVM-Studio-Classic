@@ -2,17 +2,14 @@ import {
   FaFacebookF,
   FaInstagram,
   FaMapMarkerAlt,
-  FaPinterestP,
-  FaYoutube,
+  FaWhatsapp,
 } from 'react-icons/fa'
 import { brand, navItems, socialLinks } from '../data/siteData'
-import Button from './Button'
 
 const socialIconMap = {
   instagram: FaInstagram,
   facebook: FaFacebookF,
-  youtube: FaYoutube,
-  pinterest: FaPinterestP,
+  whatsapp: FaWhatsapp,
 }
 
 export default function Footer() {
