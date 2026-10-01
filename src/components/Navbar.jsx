@@ -80,7 +80,7 @@ export default function Navbar({ activeSection, menuOpen, onToggleMenu, onCloseM
             </a>
           ))}
           <Button href={brand.instagramUrl} variant="solid" className="mobile-menu__cta" withArrow>
-            Book a Session
+            Message Us 
           </Button>
         </nav>
       </div>
