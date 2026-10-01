@@ -1,7 +1,5 @@
-import { FaArrowRight } from 'react-icons/fa'
-
 /**
- * Reusable photography card with overlay metadata and a gold arrow affordance.
+ * Reusable photography card with overlay metadata.
  * variant: 'story' (tall editorial card) | 'gallery' (masonry grid tile)
  */
 export default function ImageCard({
@@ -28,9 +26,6 @@ export default function ImageCard({
         {label && <span className="image-card__label">{label}</span>}
         <div className="image-card__row">
           <h3 className="image-card__title">{title}</h3>
-          <span className="image-card__arrow" aria-hidden="true">
-            <FaArrowRight />
-          </span>
         </div>
       </div>
     </article>

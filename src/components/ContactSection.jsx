@@ -86,18 +86,12 @@ function ContactForm() {
       nextErrors.phone = 'Please enter a valid phone number.'
     }
 
-    if (!formData.email.trim()) {
-      nextErrors.email = 'Please enter your email address.'
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
+    if (formData.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
       nextErrors.email = 'Please enter a valid email address.'
     }
 
     if (!formData.eventType.trim()) {
       nextErrors.eventType = 'Please select an event type.'
-    }
-
-    if (!formData.message.trim()) {
-      nextErrors.message = 'Please tell us a little about your plans.'
     }
 
     return nextErrors
@@ -247,7 +241,7 @@ function LocationCTA() {
 
 export default function ContactSection() {
   return (
-    <section className="contact-section section" aria-labelledby="contact-section-title">
+    <section id="contact" className="contact-section section" aria-labelledby="contact-section-title">
       <div className="container">
         <header className="contact-intro">
           <div className="contact-intro__label">

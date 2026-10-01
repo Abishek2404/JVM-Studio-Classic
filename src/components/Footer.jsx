@@ -17,7 +17,7 @@ const socialIconMap = {
 
 export default function Footer() {
   return (
-    <footer id="contact" className="footer">
+    <footer className="footer">
       <div className="container footer__top">
         <div className="footer__brand">
           <img src={brand.logo} alt={`${brand.name} logo`} />

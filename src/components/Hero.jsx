@@ -1,4 +1,4 @@
-import { FaArrowRight, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaArrowRight, FaInstagram, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 import { brand, heroImage } from '../data/siteData'
 import Button from './Button'
 import Reveal from './Reveal'
@@ -34,6 +34,10 @@ export default function Hero() {
             >
               <FaInstagram aria-hidden="true" />
               {brand.instagramHandle}
+            </a>
+            <a href={`tel:${brand.number.replace(/[^0-9+]/g, '')}`} className="hero__phone">
+              <FaPhoneAlt aria-hidden="true" />
+              {brand.number}
             </a>
           </Reveal>
 

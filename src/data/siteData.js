@@ -10,6 +10,7 @@ export const brand = {
   location: 'Vellore | DM JVM Studio 💌',
   locationShort: 'Vellore',
   instagramHandle: '@jvmstudio_vlr',
+  number: '+91 80156 93237',
   instagramUrl: 'https://www.instagram.com/jvmstudio_vlr',
   mapsUrl: 'https://share.google/RL5mCLIgQR6Hweok0',
   logo: '/logo.png',
